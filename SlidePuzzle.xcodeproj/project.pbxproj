@@ -14,6 +14,7 @@
 		6459852619DDAA10000AC350 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6459852519DDAA10000AC350 /* Images.xcassets */; };
 		6459852919DDAA10000AC350 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6459852719DDAA10000AC350 /* LaunchScreen.xib */; };
 		6459853519DDAA10000AC350 /* SlidePuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6459853419DDAA10000AC350 /* SlidePuzzleTests.m */; };
+		647DC0CE19E707F40028DE60 /* UIImage+Cropping.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DC0CD19E707F40028DE60 /* UIImage+Cropping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6459852E19DDAA10000AC350 /* SlidePuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidePuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6459853319DDAA10000AC350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6459853419DDAA10000AC350 /* SlidePuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidePuzzleTests.m; sourceTree = "<group>"; };
+		647DC0CC19E707F40028DE60 /* UIImage+Cropping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cropping.h"; sourceTree = "<group>"; };
+		647DC0CD19E707F40028DE60 /* UIImage+Cropping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cropping.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				6459851F19DDAA10000AC350 /* ViewController.h */,
 				6459852019DDAA10000AC350 /* ViewController.m */,
 				6459852219DDAA10000AC350 /* Main.storyboard */,
+				647DC0CC19E707F40028DE60 /* UIImage+Cropping.h */,
+				647DC0CD19E707F40028DE60 /* UIImage+Cropping.m */,
 				6459852519DDAA10000AC350 /* Images.xcassets */,
 				6459852719DDAA10000AC350 /* LaunchScreen.xib */,
 				6459851819DDAA10000AC350 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				6459852119DDAA10000AC350 /* ViewController.m in Sources */,
 				6459851E19DDAA10000AC350 /* AppDelegate.m in Sources */,
 				6459851B19DDAA10000AC350 /* main.m in Sources */,
+				647DC0CE19E707F40028DE60 /* UIImage+Cropping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				6459853A19DDAA10000AC350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6459853B19DDAA10000AC350 /* Build configuration list for PBXNativeTarget "SlidePuzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				6459853D19DDAA10000AC350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
